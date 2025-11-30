@@ -23,3 +23,8 @@ def load_dataset():
     return data
 
 data = load_dataset()
+
+# Vectorize
+vectorizer = TfidfVectorizer(stop_words='english', max_features=5000)
+X = vectorizer.fit_transform(data.data)
+y = data.target
