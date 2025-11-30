@@ -28,3 +28,7 @@ data = load_dataset()
 vectorizer = TfidfVectorizer(stop_words='english', max_features=5000)
 X = vectorizer.fit_transform(data.data)
 y = data.target
+
+# Train model
+model = LogisticRegression(max_iter=300)
+model.fit(X, y)
