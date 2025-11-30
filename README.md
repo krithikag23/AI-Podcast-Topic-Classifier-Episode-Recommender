@@ -8,3 +8,11 @@ to identify the **topic** of a podcast description and recommend similar episode
 - **Prediction Confidence Chart**
 - Works in real-time with user input
 
+
+## Tech Stack
+- Streamlit UI
+- TF-IDF Vectorizer (Scikit-learn)
+- Logistic Regression
+- Cosine Similarity for Recommendations
+- Plotly Visualizations
+
