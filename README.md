@@ -16,3 +16,8 @@ to identify the **topic** of a podcast description and recommend similar episode
 - Cosine Similarity for Recommendations
 - Plotly Visualizations
 
+## Run Locally
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
