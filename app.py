@@ -32,3 +32,5 @@ y = data.target
 # Train model
 model = LogisticRegression(max_iter=300)
 model.fit(X, y)
+
+categories = data.target_names
