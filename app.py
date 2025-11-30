@@ -11,3 +11,15 @@ st.set_page_config(page_title="AI Podcast Topic Classifier", layout="wide")
 st.title("🎧 AI-Powered Podcast Topic Classifier & Recommender")
 
 st.write("Type a podcast episode summary and let AI detect the topic + recommend similar episodes!")
+
+# Load dataset
+@st.cache_resource
+def load_dataset():
+    categories = [
+        'sci.space', 'comp.graphics', 'rec.sport.baseball',
+        'talk.politics.misc', 'sci.med', 'business'
+    ]
+    data = fetch_20newsgroups(subset='train', categories=categories, remove=('headers', 'footers', 'quotes'))
+    return data
+
+data = load_dataset()
