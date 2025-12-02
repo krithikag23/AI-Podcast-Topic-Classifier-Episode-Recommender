@@ -9,7 +9,8 @@ Using similarity analysis, it also recommends the Top-3 most relevant podcast ep
 - Works in real-time with user input
 ---
 
-
+##How it Works
+---
 ## Tech Stack
 - Streamlit UI
 - TF-IDF Vectorizer (Scikit-learn)
