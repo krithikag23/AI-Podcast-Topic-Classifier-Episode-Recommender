@@ -1,5 +1,6 @@
 # AI Podcast Topic Classifier Episode Recommender
 This application leverages Natural Language Processing (NLP) to analyze podcast episode descriptions and automatically determine their topic category.
+Using similarity analysis, it also recommends the Top-3
 
 ## Features
 - **Topic Classification** using ML
