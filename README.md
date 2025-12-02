@@ -1,4 +1,4 @@
-# AI Podcast Topic Classifier Episode Recommender
+# 🎧 AI Podcast Topic Classifier Episode Recommender
 This application leverages Natural Language Processing (NLP) to analyze podcast episode descriptions and automatically determine their topic category.
 Using similarity analysis, it also recommends the Top-3 most relevant podcast episodes for users to explore further.
 ---
@@ -9,9 +9,12 @@ Using similarity analysis, it also recommends the Top-3 most relevant podcast ep
 - Works in real-time with user input
 ---
 
-## How it Works
+## 🧠How it Works
 - User inputs a podcast episode description.
 - The text is transformed into vector form using TF-IDF.
+- Topic is predicted using a trained Logistic Regression classifier.
+- Similar episodes are fetched using cosine similarity scores.
+- Results are visualized and recommendations are shown instantly.
 ---
 ## Tech Stack
 - Streamlit UI
