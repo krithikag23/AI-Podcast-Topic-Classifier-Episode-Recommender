@@ -10,6 +10,8 @@ Using similarity analysis, it also recommends the Top-3 most relevant podcast ep
 ---
 
 ## How it Works
+- User inputs a podcast episode description.
+- The text is transformed into vector form using TF-IDF.
 ---
 ## Tech Stack
 - Streamlit UI
