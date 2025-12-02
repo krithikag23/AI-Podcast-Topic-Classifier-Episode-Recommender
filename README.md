@@ -2,7 +2,7 @@
 This application leverages Natural Language Processing (NLP) to analyze podcast episode descriptions and automatically determine their topic category.
 Using similarity analysis, it also recommends the Top-3 most relevant podcast episodes for users to explore further.
 
-## Features
+## 🚀 Key Features
 - **Topic Classification** using ML
 - **Top-3 Podcast Recommendations**
 - **Prediction Confidence Chart**
